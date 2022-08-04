@@ -78,23 +78,3 @@ console.log("The computer count is " + computerCount);
 console.log("The player count is " + playerCount);
 console.log("the tie count is " + tieCount);
 console.log("The champion is " + champion);
-/*
-
-function game(computerChoice,playerChoice){
-    for (let i = 0; i < 5; i++) {
-        playRound(computerChoice,playerChoice);
-        return Winner;
-    }    
-    var champion = Math.max(playerCount, computerCount, tieCount);
-    return champion;   
-    
-}
-var computerChoice = getComputerChoice();
-var playerChoice = prompt("rock, paper or scissors?");
-
-console.log("Computer choice is " + computerChoice);
-console.log("Player choice is " + playerChoice);
-
-console.log(game(computerChoice,playerChoice));
-
-*/
